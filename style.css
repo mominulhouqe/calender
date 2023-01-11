@@ -1,0 +1,48 @@
+
+body{
+    background-image: linear-gradient(rgb(238, 238, 238), rgb(248, 248, 248)),  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.Calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+
+}
+.calender1{
+    text-align: center;
+    padding: 30px;
+    background-color: teal;
+    color: white;
+}
+.date{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    flex-wrap: wrap;
+    background-color:rgba(251, 223, 223, 0.265);
+    border-radius: 7px;
+    
+   
+}
+.day{
+    background-color: rgba(235, 225, 225, 0.499);
+}
+.reds{
+    color: tomato;
+}
+.days{
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+    font-size: 30px;
+    border-radius: 7px;
+
+}
